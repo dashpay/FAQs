@@ -392,7 +392,7 @@ The proposal has changed from the original link. We are giving the updated summa
 
 **DCG Thoughts and Review**:
 
-By only sending 20% to Platform there wouldn't be enough incentive for enough Masternodes to run Platform. This would lead to a small enough subset that could cause Platform to be dangerously centralized. (See question 14).
+By only sending 20% to Platform there wouldn't be enough incentive for enough Masternodes to run Platform. This would lead to a small enough subset that could cause Platform to be dangerously centralized. (See question 17).
 
 Rewarding Platform nodes only through Platform while they are still serving the Core payment chain is less than desirable. (See question 16).
 
