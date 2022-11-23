@@ -257,7 +257,7 @@ If at some given time, HPMNs are receiving much higher yields than standard Mast
 
 Standard Masternode rewards are expected to stay roughly the same: the rewards will be smaller each time, but will occur more often. The average ROI should even increase in the case of 10K HPMNs as the total infrastructure cost to the network would go down. As this is a market solution giving people the choice to run or not run Platform it is not possible to be completely sure of the outcome. The yield equilibrium referred to in question 24 ensures that every bit of money put in masternodes would yield the same percentage of return as HPMNs, and more money entering the system from Platform fees means all nodes will have increased yields.
 
-33. **Will HPMNs generate revenue from Platform fees? **
+33. **Will HPMNs generate revenue from Platform fees?**
 
 Yes, fees will generate revenue except in one extreme case. If the price of Dash were to go below half the average price that was paid in Dash per byte for all bytes stored in the Platform state, revenue generation would be lower than storage hosting costs. Adjustments to the fee multiplier (originally set to 2) could cause this to fluctuate to more than or less than the "half" from the previous statement.
 
@@ -406,6 +406,6 @@ Bonding/Unbonding periods are not the same thing as collateral locking. The form
 
 Keep collateral at 1K, set a hard cap on the number of Platform nodes, remove Platform nodes from receiving Core block rewards, and require proof of ownership of some number of non-Platform nodes to ensure decentralization.
 
-**Review**:
+**DCG Thoughts and Review**:
 
 This solution relies on setting a hard cap on the number of Platform nodes, which again would introduce a serious security vulnerability and disallow some users to participate in hosting Platform even if they wanted and could afford to. See question 17 for more details on the issues with a hard cap.
