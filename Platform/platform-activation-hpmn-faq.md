@@ -159,7 +159,7 @@ The second downside is that this system only becomes secure with about 2100 Plat
 
 Setting a hard cap on the number of Masternodes running Platform would disallow some MNOs to run a Platform node even if they wanted to. Furthermore such a solution would likely threaten the stability of Platform by introducing a point of unsafe centralization.
 
-Currently, the biggest whale is estimated to own about 270 masternodes. Say we set the hard cap to 1000 total Platform nodes. There would be a 2.2% chance that this owner alone could shut down a validator set each time a new set is chosen by taking their participating nodes offline, therefore halting the chain. There would be a 39% chance of them having the opportunity to do so each day with 24 quorums a day.
+Currently, the biggest whale is estimated to own about 270 masternodes. Say we set the hard cap to 1000 total Platform nodes. There would be a 6.35% chance that this owner alone could shut down a validator set each time a new set is chosen by taking their participating nodes offline, therefore halting the chain. There would be a 79.29% chance of them having the opportunity to do so each day with 24 quorums a day.
 
 We would need to set the hard cap to at least 2100 in order to achieve a similar level of security in this regard as the 4k HPMN solution.
 
