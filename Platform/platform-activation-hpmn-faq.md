@@ -276,7 +276,7 @@ They are expected to generate revenue indirectly from Platform because the equil
 | RAM | 16GB | 16GB | 16GB-32GB
 | Storage | 200+ GB | 200+ GB | 200+ GB
 | CPU | 4 Cores (2.8GHZ) | 4 Cores (2.8GHZ) | 4-8 Cores (2.8GHZ)
-| Network Throughput | 5GB/s | 5GB/s | 5-10GB/s
+| Network Throughput | 1GB/s | 1GB/s | 2GB/s
 
 Note: during Platform’s launch, nodes will be able to run with 8GB of RAM due to the low initial usage anticipated. However, we do not recommend this amount except in that period of low usage.
 
