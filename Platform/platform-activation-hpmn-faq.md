@@ -55,7 +55,7 @@ On October 20, a poll inside DCG was made. The results were that the developers 
 | Solution | Number of votes
 | - | - |
 | Every masternode must run Platform | 2 votes (1 dev, 1 non-dev)
-| 4k or 10k HPMN (doesn’t matter) | 4 votes (4 dev)
+| 4k or 10k HPMN (doesn’t matter) | 5 votes (5 dev)
 | 4K HPMN solution | 4 votes (3 dev, 2 non-dev)
 | 10K HPMN solution | 0 votes
 | All masternodes or HPMN 4k | 1 vote (1 non-dev)
