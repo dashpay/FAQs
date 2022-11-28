@@ -145,7 +145,7 @@ There have been solutions proposed that give only 20% of rewards to Platform, ho
 
 15. **Would it be possible to not reward Platform nodes for Core services and keep collateral at 1K Dash for running Platform?**
 
-Yes, this is possible. However, there are a few major downsides. First, to reach the same level of security on Platform as the 4K HPMN solution, there would need to be approximately 2100 Platform nodes with 1K collateral. Second, there would be significantly fewer nodes participating in Core-servicing quorums. InstantSend performance is optimal when the node count is over 1920; in this scenario, we would only have around 1700.
+Yes, this is possible. However, there are a few major downsides. First, to reach the same level of security on Platform as the 4K HPMN solution against participants shutting down the service, there would need to be approximately 2100 Platform nodes with 1K collateral. Second, there would be significantly fewer nodes participating in Core-servicing quorums. InstantSend performance is optimal when the node count is over 1920; in this scenario, we would only have around 1700.
 
 16. **Would it be possible to reward Platform nodes for Core services but not directly through Core Masternode payments and keep collateral at 1K Dash for running Platform?**
 
