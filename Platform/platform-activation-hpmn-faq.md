@@ -212,14 +212,15 @@ A High Performance Masternode is a proposed new type of Masternode which would b
 
 The main advantages are:
 
-1. Increased safety for the Core payment chain due to the supermajority of nodes not running the Platform chain. If every node running the Platform chain was to go offline, the Core payment chain would only be minimally affected.
-2. Hosting Platform is optional, so you can still run a Core node and not have to participate in Platform if you don’t want to.
-3. A market equilibrium allowing ROI to vary based on difficulty/desire to run Platform or not.
-4. Decreased fees on Platform due to the decrease in total nodes hosting the network. They are estimated to be cut by up to around 20 times depending on the chosen solution.
-5. Compared to a 1k optional solution there is increased safety due to the decrease of variability in quorum selection allowing big whales a lower to null chance to either maliciously or inadvertently stop the platform chain.
-6. Increased yield for the entire network compared to non-HPMN solutions.
-7. Estimated stronger nodes, leading to higher transactions per second.
-8. Estimated stronger nodes, leading to higher resilience against malicious attacks.
+ 1. Increased safety for the Core payment chain due to the supermajority of nodes not running the Platform chain. If every node running the Platform chain was to go offline, the Core payment chain would only be minimally affected.
+ 2. Hosting Platform is optional, so you can still run a Core node and not have to participate in Platform if you don’t want to.
+ 3. A market equilibrium allowing ROI to vary based on difficulty/desire to run Platform or not.
+ 4. Decreased fees on Platform due to the decrease in total nodes hosting the network. They are estimated to be cut by up to around 20 times depending on the chosen solution.
+ 5. Compared to a 1k optional solution there is increased safety due to the decrease of variability in quorum selection allowing big whales a lower to null chance to either maliciously or inadvertently stop the platform chain.
+ 6. Increased yield for the entire network compared to non-HPMN solutions.
+ 7. Estimated stronger nodes, leading to higher transactions per second.
+ 8. Estimated stronger nodes, leading to higher resilience against malicious attacks.
+<!--this comment ends the list -->
 
 27. **What are the drawbacks of the HPMN solutions?**
 
