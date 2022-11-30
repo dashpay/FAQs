@@ -383,13 +383,10 @@ The proposal has changed from the original link. We are giving the updated summa
 
 **Summary**:
 
-*Keep collateral at 1K.
-
-*Reward Platform at 20%.
-
-*Reward Platform nodes only through Platform.
-
-*Require Masternodes that run Platform to lock their collateral for some period of time.
+* Keep collateral at 1K.
+* Reward Platform at 20%.
+* Reward Platform nodes only through Platform.
+* Require Masternodes that run Platform to lock their collateral for some period of time.
 
 **DCG Thoughts and Review**:
 
@@ -405,7 +402,10 @@ Bonding/Unbonding periods are not the same thing as collateral locking. The form
 
 **Summary**:
 
-Keep collateral at 1K, set a hard cap on the number of Platform nodes, remove Platform nodes from receiving Core block rewards, and require proof of ownership of some number of non-Platform nodes to ensure decentralization.
+* Keep collateral at 1K.
+* Set a hard cap on the number of Platform nodes.
+* Remove Platform nodes from receiving Core block rewards.
+* Require proof of ownership of some number of non-Platform nodes to ensure decentralization.
 
 **DCG Thoughts and Review**:
 
