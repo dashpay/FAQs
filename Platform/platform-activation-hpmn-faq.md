@@ -1,6 +1,6 @@
 # Decision around how to activate Platform and High Performance Masternodes FAQ
 
-This is an Open FAQ managed by the DCG team. While we have done our best to provide answers as accurate as possible we are not infallible. Contributions to this FAQ can be done either by raising issues or by opening pull requests on Github. If you would like to have DCG answer a question that is not yet in this FAQ please add it as an issue on Github starting with the title "[New Question]:".
+This is an open FAQ managed by the DCG team. While we have done our best to provide the most accurate answers as possible, we are not infallible. Contributions to this FAQ can be made either by raising issues or by opening pull requests on GitHub. If you would like to have DCG answer a question that is not yet in this FAQ, please add it as an issue on GitHub starting with the title "[New Question]:".
 
 # Answered Questions
 
