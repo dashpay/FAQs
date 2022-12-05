@@ -1,6 +1,6 @@
 # Decision around how to activate Platform and High Performance Masternodes FAQ
 
-This is an Open FAQ managed by the DCG team. While we have done our best to provide answers as accurate as possible we are not infallible. Contributions to this FAQ can be done either by raising issues or by opening pull requests on Github. If you would like to have DCG answer a question that is not yet in this FAQ please add it as an issue on Github starting with the title "[New Question]:".
+This is an open FAQ managed by the DCG team. While we have done our best to provide the most accurate answers possible, we are not infallible. Contributions to this FAQ can be made either by raising issues or by opening pull requests on GitHub. If you would like to have DCG answer a question that is not yet in this FAQ, please add it as an issue on GitHub starting with the title "[New Question]:".
 
 # Answered Questions
 
@@ -383,13 +383,10 @@ The proposal has changed from the original link. We are giving the updated summa
 
 **Summary**:
 
-*Keep collateral at 1K.
-
-*Reward Platform at 20%.
-
-*Reward Platform nodes only through Platform.
-
-*Require Masternodes that run Platform to lock their collateral for some period of time.
+* Keep collateral at 1K.
+* Reward Platform at 20%.
+* Reward Platform nodes only through Platform.
+* Require Masternodes that run Platform to lock their collateral for some period of time.
 
 **DCG Thoughts and Review**:
 
@@ -405,8 +402,15 @@ Bonding/Unbonding periods are not the same thing as collateral locking. The form
 
 **Summary**:
 
-Keep collateral at 1K, set a hard cap on the number of Platform nodes, remove Platform nodes from receiving Core block rewards, and require proof of ownership of some number of non-Platform nodes to ensure decentralization.
+* Keep collateral at 1K.
+* Set a hard cap on the number of Platform nodes.
+* Remove Platform nodes from receiving Core block rewards.
+* Require proof of ownership of some number of non-Platform nodes to ensure decentralization.
 
 **DCG Thoughts and Review**:
 
 This solution relies on setting a hard cap on the number of Platform nodes, which again would introduce a serious security vulnerability and disallow some users to participate in hosting Platform even if they wanted and could afford to. See question 17 for more details on the issues with a hard cap.
+
+### How was Masternode data collected?
+
+Data which provided insight into Dash Masternodes and whales was taken from [mnowatch.org](https://www.mnowatch.org), a community-run website which provides information and services about and for the Dash network. We would like to specifically thank xkcd and demo for their valuable contributions.
