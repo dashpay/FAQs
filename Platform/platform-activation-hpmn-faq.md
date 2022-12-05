@@ -410,3 +410,7 @@ Bonding/Unbonding periods are not the same thing as collateral locking. The form
 **DCG Thoughts and Review**:
 
 This solution relies on setting a hard cap on the number of Platform nodes, which again would introduce a serious security vulnerability and disallow some users to participate in hosting Platform even if they wanted and could afford to. See question 17 for more details on the issues with a hard cap.
+
+### How was Masternode data collected?
+
+Data which provided insight into Dash Masternodes and whales was taken from [mnowatch.org](https://www.mnowatch.org), a community-run website which provides information and services about and for the Dash network. We would like to specifically thank xkcd and demo for their valuable contributions.
