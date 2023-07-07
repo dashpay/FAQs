@@ -1,6 +1,6 @@
 # Decision around how to activate Platform and High Performance Masternodes FAQ
 
-**_Note that as of May 2023, the term "High Performance Masternode / HPMN" has been replaced with "Evolution masternode / evonode"._**
+*Note that as of May 2023, the term "High Performance Masternode / HPMN" has been replaced with "Evolution masternode / evonode".*
 
 This is an open FAQ managed by the DCG team. While we have done our best to provide the most accurate answers possible, we are not infallible. Contributions to this FAQ can be made either by raising issues or by opening pull requests on GitHub. If you would like to have DCG answer a question that is not yet in this FAQ, please add it as an issue on GitHub starting with the title "[New Question]:".
 
