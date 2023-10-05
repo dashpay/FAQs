@@ -165,7 +165,7 @@ We would need to set the hard cap to at least 2100 in order to achieve a similar
 
 18. **How does higher collateral enforce higher performance nodes?**
 
-The higher collateral requirement does not enforce higher performance. Rather, Masternodes have an economic incentive to follow the specs recommended by DCG: if a node wasn’t performing sufficiently, it would start lagging behind the rest of the network, fail to produce blocks, and miss out on rewards. Thus a evonode will be required to be stronger than the current average standard masternode in order to receive rewards. A second point is that higher collateral shows a higher stake in the project which should push evonode owners to have a higher incentive to have more performant hardware servicing Dash Platform.
+The higher collateral requirement does not enforce higher performance. Rather, Masternodes have an economic incentive to follow the specs recommended by DCG: if a node wasn’t performing sufficiently, it would start lagging behind the rest of the network, fail to produce blocks, and miss out on rewards. Thus an evonode will be required to be stronger than the current average standard masternode in order to receive rewards. A second point is that higher collateral shows a higher stake in the project which should push evonode owners to have a higher incentive to have more performant hardware servicing Dash Platform.
 
 19. **Can we increase the number of Masternodes inside a quorum?**
 
@@ -238,15 +238,15 @@ No, even though we would see a decrease in total Masternode count as collateral 
 
 We anticipate that the implementation of evonodes would add only a few hours of development compared to the original plan of having every node run Platform.
 
-30. **What would the governance voting power of a evonode be compared to a regular masternode?**
+30. **What would the governance voting power of an evonode be compared to a regular masternode?**
 
-evonodes would have an increase in governance voting power proportional to the increase in the amount of collateral. For example, a evonode requiring a 4000 DASH collateral would have 4 votes while a standard masternode would still have 1.
+Evonodes would have an increase in governance voting power proportional to the increase in the amount of collateral. For example, an evonode requiring a 4000 DASH collateral would have 4 votes while a standard masternode would still have 1.
 
 ## Economic
 
 31. **How do evonodes get their rewards?**
 
-The Masternode part of the block reward would be split into two parts, one allocated for Platform services and one for Core services. Each is then split equally among all evonodes and standard Masternodes. evonodes would get rewards both from the Platform chain and from the Core payment chain. All Masternodes, standard and high performance, would be equivalent from Core’s perspective. Hence we can consider that the first 1K of collateral would be logically associated with Core while the remainder is associated with Platform. Therefore a 4K evonode would get 75% (¾) of its rewards from the Platform chain and 25% (¼) of its rewards from the Core payment chain. A 10K evonode would get 90% (9/10) of its rewards from the Platform chain and 10% (1/10) from the Core payment chain.
+The Masternode part of the block reward would be split into two parts, one allocated for Platform services and one for Core services. Each is then split equally among all evonodes and standard Masternodes. Evonodes would get rewards both from the Platform chain and from the Core payment chain. All Masternodes, standard and high performance, would be equivalent from Core’s perspective. Hence we can consider that the first 1K of collateral would be logically associated with Core while the remainder is associated with Platform. Therefore a 4K evonode would get 75% (¾) of its rewards from the Platform chain and 25% (¼) of its rewards from the Core payment chain. A 10K evonode would get 90% (9/10) of its rewards from the Platform chain and 10% (1/10) from the Core payment chain.
 
 31. **Would the yield of evonodes be higher than that of normal masternodes?**
 
