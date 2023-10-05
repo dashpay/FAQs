@@ -204,11 +204,11 @@ No, one of the tradeoffs for supporting efficient proofs using threshold cryptog
 
 ## General
 
-25. **What is a High-Performance Masternode (EvoNode)?**
+25. **What is an Evolution Node (EvoNode)?**
 
 An Evolution Node is a proposed new type of Masternode which would be used to serve the network by participating in consensus on both the Dash Platform chain and the Dash Payment (Core) chain. In the solutions that use EvoNodes the standard Masternode would continue serving only the Dash Payment chain. EvoNodes would have greater requirements than a standard Masternode regarding collateral amount and would require higher performance specs as they would be running two chains instead of just one.
 
-26. **What are the main advantages of choosing one of the High-Performance Masternode solutions?**
+26. **What are the main advantages of choosing one of the Evolution Node solutions?**
 
 The main advantages are:
 
@@ -272,7 +272,7 @@ They are expected to generate revenue indirectly from Platform because the equil
 
 35. **What are the targeted specs for EvoNodes?**
 
-| | Every node must run Platform | High Performance 4k | High Performance 10k
+| | Every node must run Platform | Evolution Node 4k | Evolution Node 10k
 |-|-|-|-|
 | RAM | 16GB | 16GB | 16GB-32GB
 | Storage | 200+ GB | 200+ GB | 200+ GB
