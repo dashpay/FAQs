@@ -1,4 +1,4 @@
-# Decision around how to activate Platform and High Performance Masternodes FAQ
+# Decision around how to activate Platform and Evolution masternodes FAQ
 
 This is an open FAQ managed by the DCG team. While we have done our best to provide the most accurate answers possible, we are not infallible. Contributions to this FAQ can be made either by raising issues or by opening pull requests on GitHub. If you would like to have DCG answer a question that is not yet in this FAQ, please add it as an issue on GitHub starting with the title "[New Question]:".
 
@@ -16,14 +16,14 @@ As development for the release of Dash Platform nears completion, certain drawba
 * The cost of the system to the network (ROI).
 * The fee cost to users.
 
-We took these concerns seriously and thought about the best way to remedy them with solutions that would be relatively easy to implement. We came up with a solution called High Performance Masternodes that will be explained in this FAQ. While the advantages are many, the main drawback of this solution is that it requires the creation of a new type of Masternode with a higher collateral. We will be polling the Masternode network as we want to ensure that this potential move, which differs from the original plan, is aligned with what the community as a whole wishes. Hence this vote is necessary for us as a project in order to coalesce around a plan for Platform activation.
+We took these concerns seriously and thought about the best way to remedy them with solutions that would be relatively easy to implement. We came up with a solution called Evolution masternodes that will be explained in this FAQ. While the advantages are many, the main drawback of this solution is that it requires the creation of a new type of Masternode with a higher collateral. We will be polling the Masternode network as we want to ensure that this potential move, which differs from the original plan, is aligned with what the community as a whole wishes. Hence this vote is necessary for us as a project in order to coalesce around a plan for Platform activation.
 
 2. **What are the solutions that DCG is proposing to be voted on?**
 
 DCG is proposing 2 categories of solutions to the network:
 
 * The first is that every Masternode must run Platform.
-* The second is one of multiple solutions in a category called “High Performance Masternodes”.
+* The second is one of multiple solutions in a category called “Evolution masternodes”.
 
 The High Performance solutions that will be proposed by DCG would require a new type of Masternode that uses between a 4K to 10K collateral, instead of the standard 1K collateral. The system is designed in such a way that standard Masternode operators should over time see an increase in ROI.
 
@@ -36,13 +36,13 @@ No, as time goes by the needs of the network are going to change. There are two 
 We will be making the following proposals to the network in the December voting cycle:
 
 * Every node must run Platform.
-* The 4K High Performance Masternode Solution
-* The 10K High Performance Masternode Solution
+* The 4K Evolution masternode Solution
+* The 10K Evolution masternode Solution
 
 We expect community proposals to also be made.
 
  \
-If there is no resounding winner (a resounding winner would have over two times the absolute votes of the runner-up), the top two proposals will then go to a runoff in the January cycle. However, if the 4K and 10K HPMN solutions are the two top-voted solutions, we will instead perform a secondary vote where we add proposals for 6K and 8K. The winner would then be the highest voted in the second round between 4K, 6K, 8K and 10K.
+If there is no resounding winner (a resounding winner would have over two times the absolute votes of the runner-up), the top two proposals will then go to a runoff in the January cycle. However, if the 4K and 10K evonode solutions are the two top-voted solutions, we will instead perform a secondary vote where we add proposals for 6K and 8K. The winner would then be the highest voted in the second round between 4K, 6K, 8K and 10K.
 
 The winner of each multiple choice round is determined by the number of YES votes minus the number of NO.
 
@@ -50,15 +50,15 @@ For the second round if there are only two choices there might be only one propo
 
 5. **Is there consensus inside DCG on which solution to go for?**
 
-On October 20, a poll inside DCG was made. The results were that the developers and non-devs overwhelmingly believed that the usage of HPMNs would be a far superior plan compared to running Platform on every node. The result of the internal poll is shown in the table below.
+On October 20, a poll inside DCG was made. The results were that the developers and non-devs overwhelmingly believed that the usage of evonodes would be a far superior plan compared to running Platform on every node. The result of the internal poll is shown in the table below.
 
 | Solution | Number of votes
 | - | - |
 | Every masternode must run Platform | 2 votes (1 dev, 1 non-dev)
-| 4k or 10k HPMN (doesn’t matter) | 5 votes (5 dev)
-| 4K HPMN solution | 5 votes (3 dev, 2 non-dev)
-| 10K HPMN solution | 0 votes
-| All masternodes or HPMN 4k | 1 vote (1 non-dev)
+| 4k or 10k evonode (doesn’t matter) | 5 votes (5 dev)
+| 4K evonode solution | 5 votes (3 dev, 2 non-dev)
+| 10K evonode solution | 0 votes
+| All masternodes or evonode 4k | 1 vote (1 non-dev)
 | All options are good for me | 1 vote (1 dev)
 
 ## Economic
@@ -68,26 +68,26 @@ On October 20, a poll inside DCG was made. The results were that the developers 
 Using the following parameters and assumptions, we’re able to provide estimates of what the ROI would likely be for each existing potential solution:
 
 * Cost to host a MN: 25$/Month
-* Cost to host a HPMN: 100$/Month
-* Rewards have stabilized between MNs and HPMNs (see question 31 for an explanation of the yield equilibrium between MNs and HPMNs)
+* Cost to host an evonode: 100$/Month
+* Rewards have stabilized between MNs and evonodes (see question 31 for an explanation of the yield equilibrium between MNs and evonodes)
 * No fees generated by Platform (at start)
-* 3.8M Dash locked in either Masternodes or HP Masternodes
+* 3.8M Dash locked in either Masternodes or Evolution masternodes
 * 45$ Dash price
 
 | DCG-proposed Solutions | ROI
 |-|-|
 | Current ROI (for comparison) | 6.70%
 | Every masternode must run Platform | 4.70%
-| 4K HPMN solution | 6.69%
-| 10K HPMN solution | 6.88%
+| 4K evonode solution | 6.69%
+| 10K evonode solution | 6.88%
 
 | Community-Proposed Solutions | ROI
 |-|-|
-| 1K HPMNs with 20% given to Platform rewards. All nodes get Core rewards. Rewards based on the estimation that 50% of all nodes will run Platform. | 5.09% MN - 5.77% HPMNs
-| 1K Dash MN, 1K Dash HPMN (HPMN does not get Core rewards) 50% given to platform | 5.69%
-| 1K Dash MN, 1K Dash HPMN (HPMN does not get Core rewards) 20% given to platform (Insecure due to centralization concerns) | 6.38%
-| 250 Dash MN, 1K Dash HPMN | 4.68%
-| 500 Dash MN, 1K Dash HPMN | 5.36%
+| 1K evonodes with 20% given to Platform rewards. All nodes get Core rewards. Rewards based on the estimation that 50% of all nodes will run Platform. | 5.09% MN - 5.77% evonodes
+| 1K Dash MN, 1K Dash evonode (evonode does not get Core rewards) 50% given to platform | 5.69%
+| 1K Dash MN, 1K Dash evonode (evonode does not get Core rewards) 20% given to platform (Insecure due to centralization concerns) | 6.38%
+| 250 Dash MN, 1K Dash evonode | 4.68%
+| 500 Dash MN, 1K Dash evonode | 5.36%
 
 7. **What are the estimated Platform fees in various solutions?**
 
@@ -99,14 +99,14 @@ These fees are accurate as of November 15th 2022, but are subject to change as w
 |-|-|-|-|
 | Every masternode must run Platform | $0.231 | $0.102 | $0.142
 | 1K Optional with 1900 Nodes (just for comparison) | $0.110 | $0.048 | $0.067
-| 4K HPMN solution | $0.026 | $0.011 | $0.016
-| 10K HPMN solution | $0.011 | $0.005 | $0.006
+| 4K evonode solution | $0.026 | $0.011 | $0.016
+| 10K evonode solution | $0.011 | $0.005 | $0.006
 
 The ratio of fees between each solution would be the same for any operation.
 
-8. **Is DCG a proponent of the HPMN solutions solely because they lower fees on Platform?**
+8. **Is DCG a proponent of the evonode solutions solely because they lower fees on Platform?**
 
-Lower user fees is an attractive advantage of the High Performance Masternode solutions, however DCG would still be in favor of these solutions even if fees were not a factor. The reasons for this become apparent later in this FAQ.
+Lower user fees is an attractive advantage of the Evolution masternode solutions, however DCG would still be in favor of these solutions even if fees were not a factor. The reasons for this become apparent later in this FAQ.
 
 9. **Could we subsidize fees to lower them?**
 
@@ -145,7 +145,7 @@ There have been solutions proposed that give only 20% of rewards to Platform, ho
 
 15. **Would it be possible to not reward Platform nodes for Core services and keep collateral at 1K Dash for running Platform?**
 
-Yes, this is possible. However, there are a few major downsides. First, to reach the same level of security on Platform as the 4K HPMN solution against participants shutting down the service, there would need to be approximately 2100 Platform nodes with 1K collateral. Second, there would be significantly fewer nodes participating in Core-servicing quorums. InstantSend performance is optimal when the node count is over 1920; in this scenario, we would only have around 1700.
+Yes, this is possible. However, there are a few major downsides. First, to reach the same level of security on Platform as the 4K evonode solution against participants shutting down the service, there would need to be approximately 2100 Platform nodes with 1K collateral. Second, there would be significantly fewer nodes participating in Core-servicing quorums. InstantSend performance is optimal when the node count is over 1920; in this scenario, we would only have around 1700.
 
 16. **Would it be possible to reward Platform nodes for Core services but not directly through Core Masternode payments and keep collateral at 1K Dash for running Platform?**
 
@@ -153,7 +153,7 @@ Yes, this is possible and is most likely the best solution that can keep a 1K co
 
 The first is that work being done on the Core payment chain would not be rewarded on that Chain. DCG would need to develop a more complicated mechanism in order to prove on the Platform chain that Masternodes are properly servicing the Core chain. Then we would need to implement a different proposer selection mechanism that ignores specific nodes not servicing the Core chain. A quick estimate would be that this extra effort would take 1-2 months.
 
-The second downside is that this system only becomes secure with about 2100 Platform nodes. This would significantly lower the ROI for the network (including for normal MNs). At the same time user fees would be significantly higher than the HPMN solutions.
+The second downside is that this system only becomes secure with about 2100 Platform nodes. This would significantly lower the ROI for the network (including for normal MNs). At the same time user fees would be significantly higher than the evonode solutions.
 
 17. **Why not just put a ‘hard’ maximum on the number of nodes and leave the collateral at 1k?**
 
@@ -161,11 +161,11 @@ Setting a hard cap on the number of Masternodes running Platform would disallow 
 
 Currently, the biggest whale is estimated to own about 270 masternodes. Say we set the hard cap to 1000 total Platform nodes. There would be a 6.35% chance that this owner alone could shut down a validator set each time a new set is chosen by taking their participating nodes offline, therefore halting the chain. There would be a 79.29% chance of them having the opportunity to do so each day with 24 quorums a day.
 
-We would need to set the hard cap to at least 2100 in order to achieve a similar level of security in this regard as the 4k HPMN solution.
+We would need to set the hard cap to at least 2100 in order to achieve a similar level of security in this regard as the 4k evonode solution.
 
 18. **How does higher collateral enforce higher performance nodes?**
 
-The higher collateral requirement does not enforce higher performance. Rather, Masternodes have an economic incentive to follow the specs recommended by DCG: if a node wasn’t performing sufficiently, it would start lagging behind the rest of the network, fail to produce blocks, and miss out on rewards. Thus a HPMN will be required to be stronger than the current average standard masternode in order to receive rewards. A second point is that higher collateral shows a higher stake in the project which should push HPMN owners to have a higher incentive to have more performant hardware servicing Dash Platform.
+The higher collateral requirement does not enforce higher performance. Rather, Masternodes have an economic incentive to follow the specs recommended by DCG: if a node wasn’t performing sufficiently, it would start lagging behind the rest of the network, fail to produce blocks, and miss out on rewards. Thus an evonode will be required to be stronger than the current average standard masternode in order to receive rewards. A second point is that higher collateral shows a higher stake in the project which should push evonode owners to have a higher incentive to have more performant hardware servicing Dash Platform.
 
 19. **Can we increase the number of Masternodes inside a quorum?**
 
@@ -200,15 +200,15 @@ Platform uses Core services and needs them locally with low latency. Without ser
 
 No, one of the tradeoffs for supporting efficient proofs using threshold cryptography is that all validators must be of the same weight in the system. As such, this breaks the delegated proof of stake model. Since all Masternodes running Platform would hold the same collateral this is not a problem.
 
-# HPMN Questions
+# evonode Questions
 
 ## General
 
-25. **What is a High-Performance Masternode (HPMN)?**
+25. **What is an Evolution masternode (evonode)?**
 
-A High Performance Masternode is a proposed new type of Masternode which would be used to serve the network by participating in consensus on both the Dash Platform chain and the Dash Payment (Core) chain. In the solutions that use HPMNs the standard Masternode would continue serving only the Dash Payment chain. HPMNs would have greater requirements than a standard Masternode regarding collateral amount and would require higher performance specs as they would be running two chains instead of just one.
+An Evolution masternode is a proposed new type of Masternode which would be used to serve the network by participating in consensus on both the Dash Platform chain and the Dash Payment (Core) chain. In the solutions that use evonodes the standard Masternode would continue serving only the Dash Payment chain. evonodes would have greater requirements than a standard Masternode regarding collateral amount and would require higher performance specs as they would be running two chains instead of just one.
 
-26. **What are the main advantages of choosing one of the High-Performance Masternode solutions?**
+26. **What are the main advantages of choosing one of the Evolution masternode solutions?**
 
 The main advantages are:
 
@@ -217,62 +217,62 @@ The main advantages are:
  3. A market equilibrium allowing ROI to vary based on difficulty/desire to run Platform or not.
  4. Decreased fees on Platform due to the decrease in total nodes hosting the network. They are estimated to be cut by up to around 20 times depending on the chosen solution.
  5. Compared to a 1k optional solution there is increased safety due to the decrease of variability in quorum selection allowing big whales a lower to null chance to either maliciously or inadvertently stop the platform chain.
- 6. Increased yield for the entire network compared to non-HPMN solutions.
+ 6. Increased yield for the entire network compared to non-evonode solutions.
  7. Estimated stronger nodes, leading to higher transactions per second.
  8. Estimated stronger nodes, leading to higher resilience against malicious attacks.
 <!--this comment ends the list -->
 
-27. **What are the drawbacks of the HPMN solutions?**
+27. **What are the drawbacks of the evonode solutions?**
 
-The biggest drawback of the HPMN solutions are the reduction in the total number of nodes hosting Platform, which is both a good and bad thing. It is a good thing because of lower user fees and various other reasons already mentioned. It is a bad thing because the max network query-able load is reduced as there are less nodes to query data from. This however is offset by nodes having a greater capacity to respond to queries. We do not expect this to be an issue in the first few years of Platform activation as we do not expect to come close to the network limit.
+The biggest drawback of the evonode solutions are the reduction in the total number of nodes hosting Platform, which is both a good and bad thing. It is a good thing because of lower user fees and various other reasons already mentioned. It is a bad thing because the max network query-able load is reduced as there are less nodes to query data from. This however is offset by nodes having a greater capacity to respond to queries. We do not expect this to be an issue in the first few years of Platform activation as we do not expect to come close to the network limit.
 
-Another downside is that compared to forcing every node to run Platform we do have more centralization in the HPMN solutions. However we believe that the slight increase in centralization versus all the benefits of the HPMN solutions are worth the tradeoff especially since the overall HPMN solutions have increased safety.
+Another downside is that compared to forcing every node to run Platform we do have more centralization in the evonode solutions. However we believe that the slight increase in centralization versus all the benefits of the evonode solutions are worth the tradeoff especially since the overall evonode solutions have increased safety.
 
 Another aspect which may be seen as a drawback is the higher barrier to entry for hosting an entire Platform node as it would increase collateral.
 
-28. **Would the decrease of Masternodes servicing the Core payment chain stemming from HPMNs be worrying?**
+28. **Would the decrease of Masternodes servicing the Core payment chain stemming from evonodes be worrying?**
 
-No, even though we would see a decrease in total Masternode count as collateral moved into HPMNs we would still have more than enough nodes to efficiently serve the payment chain.
+No, even though we would see a decrease in total Masternode count as collateral moved into evonodes we would still have more than enough nodes to efficiently serve the payment chain.
 
-29. **Would implementing HPMNs delay Platform?**
+29. **Would implementing evonodes delay Platform?**
 
-We anticipate that the implementation of HPMNs would add only a few hours of development compared to the original plan of having every node run Platform.
+We anticipate that the implementation of evonodes would add only a few hours of development compared to the original plan of having every node run Platform.
 
-30. **What would the governance voting power of a HPMN be compared to a regular masternode?**
+30. **What would the governance voting power of an evonode be compared to a regular masternode?**
 
-HPMNs would have an increase in governance voting power proportional to the increase in the amount of collateral. For example, a HPMN requiring a 4000 DASH collateral would have 4 votes while a standard masternode would still have 1.
+Evonodes would have an increase in governance voting power proportional to the increase in the amount of collateral. For example, an evonode requiring a 4000 DASH collateral would have 4 votes while a standard masternode would still have 1.
 
 ## Economic
 
-31. **How do HPMNs get their rewards?**
+31. **How do evonodes get their rewards?**
 
-The Masternode part of the block reward would be split into two parts, one allocated for Platform services and one for Core services. Each is then split equally among all HPMNs and standard Masternodes. HPMNs would get rewards both from the Platform chain and from the Core payment chain. All Masternodes, standard and high performance, would be equivalent from Core’s perspective. Hence we can consider that the first 1K of collateral would be logically associated with Core while the remainder is associated with Platform. Therefore a 4K HPMN would get 75% (¾) of its rewards from the Platform chain and 25% (¼) of its rewards from the Core payment chain. A 10K HPMN would get 90% (9/10) of its rewards from the Platform chain and 10% (1/10) from the Core payment chain.
+The Masternode part of the block reward would be split into two parts, one allocated for Platform services and one for Core services. Each is then split equally among all evonodes and standard Masternodes. Evonodes would get rewards both from the Platform chain and from the Core payment chain. All Masternodes, standard and high performance, would be equivalent from Core’s perspective. Hence we can consider that the first 1K of collateral would be logically associated with Core while the remainder is associated with Platform. Therefore a 4K evonode would get 75% (¾) of its rewards from the Platform chain and 25% (¼) of its rewards from the Core payment chain. A 10K evonode would get 90% (9/10) of its rewards from the Platform chain and 10% (1/10) from the Core payment chain.
 
-31. **Would the yield of HPMNs be higher than that of normal masternodes?**
+31. **Would the yield of evonodes be higher than that of normal masternodes?**
 
-We expect it to be just slightly higher. As this is a market solution giving people the choice to run or not run Platform it is not possible to be sure of the outcome. If there are less HPMNs then the system equilibrium would require then HPMN rewards will be higher than that of Masternodes. If there are too many HPMNs then Masternode rewards would be higher.
+We expect it to be just slightly higher. As this is a market solution giving people the choice to run or not run Platform it is not possible to be sure of the outcome. If there are less evonodes then the system equilibrium would require then evonode rewards will be higher than that of Masternodes. If there are too many evonodes then Masternode rewards would be higher.
 
-If at some given time, HPMNs are receiving much higher yields than standard Masternodes, there will be an incentive to combine existing MNs to create HPMNs. This drives the total number of MNs down and the number of HPMNs up. The yield of HPMNs therefore will go down and the yield of masternodes up until the equilibrium is reached.
+If at some given time, evonodes are receiving much higher yields than standard Masternodes, there will be an incentive to combine existing MNs to create evonodes. This drives the total number of MNs down and the number of evonodes up. The yield of evonodes therefore will go down and the yield of masternodes up until the equilibrium is reached.
 
-32. **Would the 4k or 10k HPMN solutions lower standard Masternode rewards?**
+32. **Would the 4k or 10k evonode solutions lower standard Masternode rewards?**
 
-Standard Masternode rewards are expected to stay roughly the same: the rewards will be smaller each time, but will occur more often. The average ROI should even increase in the case of 10K HPMNs as the total infrastructure cost to the network would go down. As this is a market solution giving people the choice to run or not run Platform it is not possible to be completely sure of the outcome. The yield equilibrium referred to in question 24 ensures that every bit of money put in masternodes would yield the same percentage of return as HPMNs, and more money entering the system from Platform fees means all nodes will have increased yields.
+Standard Masternode rewards are expected to stay roughly the same: the rewards will be smaller each time, but will occur more often. The average ROI should even increase in the case of 10K evonodes as the total infrastructure cost to the network would go down. As this is a market solution giving people the choice to run or not run Platform it is not possible to be completely sure of the outcome. The yield equilibrium referred to in question 24 ensures that every bit of money put in masternodes would yield the same percentage of return as evonodes, and more money entering the system from Platform fees means all nodes will have increased yields.
 
-33. **Will HPMNs generate revenue from Platform fees?**
+33. **Will evonodes generate revenue from Platform fees?**
 
 Yes, fees will generate revenue except in one extreme case. If the price of Dash were to go below half the average price that was paid in Dash per byte for all bytes stored in the Platform state, revenue generation would be lower than storage hosting costs. Adjustments to the fee multiplier (originally set to 2) could cause this to fluctuate to more than or less than the "half" from the previous statement.
 
 Satoshi’s vision for Bitcoin was that the source of system revenue would transition from block rewards to network fees. The same applies to Dash. Dash has the opportunity to become a business where users and enterprises pay for the service and the Dash network actually makes money on every transaction.
 
-34. **In the HPMN solutions would standard Masternodes generate revenue from Platform fees?**
+34. **In the evonode solutions would standard Masternodes generate revenue from Platform fees?**
 
-They are expected to generate revenue indirectly from Platform because the equilibrium described in question 24 that exists between HPMN rewards and normal MN rewards would be driven higher as more Platform fees are generated.
+They are expected to generate revenue indirectly from Platform because the equilibrium described in question 24 that exists between evonode rewards and normal MN rewards would be driven higher as more Platform fees are generated.
 
 ## Technical
 
-35. **What are the targeted specs for HPMNs?**
+35. **What are the targeted specs for evonodes?**
 
-| | Every node must run Platform | High Performance 4k | High Performance 10k
+| | Every node must run Platform | Evolution masternode 4k | Evolution masternode 10k
 |-|-|-|-|
 | RAM | 16GB | 16GB | 16GB-32GB
 | Storage | 200+ GB | 200+ GB | 200+ GB
@@ -283,38 +283,38 @@ Note: during Platform’s launch, nodes will be able to run with 8GB of RAM due 
 
 36. **How many nodes are expected to be supporting Platform for each set of values?**
 
-It depends on the total number of nodes in the system when Platform launches as well as the HPMN masternode block reward allocation. The following values are for a 50/50 allocation scheme.
+It depends on the total number of nodes in the system when Platform launches as well as the evonode masternode block reward allocation. The following values are for a 50/50 allocation scheme.
 
 | Solution | Number of nodes
 |-|-|
 | All masternodes | All masternodes
 | 1K solution | All masternodes / whatever the fixed maximum limit is
-| 4K HPMN solution | ~460 nodes
-| 10K HPMN solution | ~180 nodes
+| 4K evonode solution | ~460 nodes
+| 10K evonode solution | ~180 nodes
 
 37. **How does each DCG-proposed solution fare in terms of security?**
 
 The main security concern for Platform is a single entity controlling more than a third of the nodes in a Tenderdash validator set (34+ out of 100). It would allow them to halt the chain either by malice or a stroke of bad luck if they were to take their nodes offline while they were comprising over a third of the set.
 
-In the tables below we provide our calculations of the security of each solution in this regard. The calculations were made assuming there would be a total of 450 HPMNs in the 4K system and 200 HPMNs in the 10K one, and that the current top whale would upgrade _all_ their current nodes (in reality they likely won’t).
+In the tables below we provide our calculations of the security of each solution in this regard. The calculations were made assuming there would be a total of 450 evonodes in the 4K system and 200 evonodes in the 10K one, and that the current top whale would upgrade _all_ their current nodes (in reality they likely won’t).
 
 | Considering the current top whale’s current number of nodes | Percent chance of the top whale gaining the ability to halt the chain per set | Percent chance of the top whale gaining the ability to halt the chain per year | Expected number of times the top whale would gain the ability to halt the chain per year
 |-|-|-|-|
 | All masternodes | 0 *  | 0 * | 0 *
-| 4K HPMN solution | 1.74E-06 | 0.0152 | 1.52E-04
-| 10K HPMN solution | 0 ** | 0 ** | 0 **
+| 4K evonode solution | 1.74E-06 | 0.0152 | 1.52E-04
+| 10K evonode solution | 0 ** | 0 ** | 0 **
 
 | Considering the current top whale increases their node count by 20% | Percent chance of the top whale gaining the ability to halt the chain per set | Percent chance of the top whale gaining the ability to halt the chain per year | Expected number of times the top whale would gain the ability to halt the chain per year
 |-|-|-|-|
 | All masternodes | 2.57E-11 | 2.25E-07 | 2.25E-09
-| 4K HPMN solution | 7.04E-04 | 5.98 | 0.0617
-| 10K HPMN solution | 0 ** | 0 ** | 0 **
+| 4K evonode solution | 7.04E-04 | 5.98 | 0.0617
+| 10K evonode solution | 0 ** | 0 ** | 0 **
 
 | Considering the current top whale increases their node count by 40% | Percent chance of the top whale gaining the ability to halt the chain per set | Percent chance of the top whale gaining the ability to halt the chain per year | Expected number of times the top whale would gain the ability to halt the chain per year
 |-|-|-|-|
 | All masternodes | 2.73E-09 | 2.39E-05 | 2.39E-07
-| 4K HPMN solution | 0.0346 | 95.2 | 3.03
-| 10K HPMN solution | 7.04E-07 | 6.17E-03 | 6.17E-05
+| 4K evonode solution | 0.0346 | 95.2 | 3.03
+| 10K evonode solution | 7.04E-07 | 6.17E-03 | 6.17E-05
 
 \* value is so small it’s in machine error range
 
@@ -322,11 +322,11 @@ In the tables below we provide our calculations of the security of each solution
 
 38. **Would quorum selection change with the new masternode type?**
 
-In the HPMN solutions, regardless of their increased collateral, a HPMN would be treated the same as a standard Masternode in the quorum selection process. For Platform quorums only HPMNs would be chosen.
+In the evonode solutions, regardless of their increased collateral, an evonode would be treated the same as a standard Masternode in the quorum selection process. For Platform quorums only evonodes would be chosen.
 
-39. **How would one set up a HPMN?**
+39. **How would one set up an evonode?**
 
-As far as registration goes, setting up a high performance masternode would be very similar to setting up a normal masternode, except for the higher collateral.
+As far as registration goes, setting up an Evolution masternode would be very similar to setting up a normal masternode, except for the higher collateral.
 
 # Voting
 
